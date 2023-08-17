@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body    {
+    font-family: Roboto;
+}
+
+.container{
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+#nav  {
+    background: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#nav ul li {
+    list-style: none;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#nav ul#menu li {
+    float: left;
+    border-radius: 8px;
+}
+#nav ul.right li {
+    float: right;
+}
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#nav ul li a{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+#nav ul#menu li.active {
+    background-color: black;
+}
+#nav ul#menu li:hover {
+    background-color: black;
+}
+.gold {
+    background-color: grey;
+}
+.banner {
+    position: relative;
+}
+.banner::before {
+    content: "";
+    background-image: url(https://img.freepik.com/vetores-gratis/xicara-de-cafe-expresso-e-graos-de-cafe_79603-1038.jpg?w=826&t=st=1690984196~exp=1690984796~hmac=e40803ffd05302345b850b9769206444522a9712765a47e89f2696064c041060);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.btn    {
+    font-family: Roboto;
+    padding: 15px;
+    margin: 30px 0;
+    border-radius: 45px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn:hover  { 
+    background-color: darkred; 
+}
+
+blockquote, p, hr { 
+    margin-bottom: 10px; 
+}
+
+section { 
+    padding-bottom: 20px; 
+}
+
+section h1  {
+        font-size: 40px;
+        margin-bottom: 0px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding-right: 10px;
+}
+
+[class*="col-4"] {
+    float: right;
+    padding-right: 20px;
+}
+
+.col-1  { width: 8.33%;  }
+.col-2  { width: 16.66%; }
+.col-3  { width: 24.99%; }
+.col-4  { width: 33.33%; }
+.col-5  { width: 41.66%; }     
+.col-6  {width: 50%;}
+.col-7  {width: 58.33%}
+.col-8  {width: 66.66%;}
+.col-9  {width: 74.99%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+:root   {
+    --fonte-principal: 'Encode Sans';
+}
+
+img {
+    width: 100%;
+}
+
+img.img_ajuste  {
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.cinza  {
+    background-color: gray;
+}
+.marrom   {
+    background-color: brown;
+}
+.rodape {
+    min-width: 40vh;
+    background: grey;
+    text-align: center;
+    color: black;
+}
+.direitos   {
+    font-size: small
+}
+.email  {
+        text-align: left;
+        padding: 10%;
+}
+.contato    {
+    text-align: center;
+    padding: 10%;
+}
+.endereço   {
+    text-align: right;
+    padding: 13%;
+}
+h3  {
+    text-align: center;
+}
+.banner2 {
+    position: relative;
+}
+.banner2::before {
+    content: "";
+    background-image: url(https://img.freepik.com/vetores-premium/estilo-desenhado-a-mao-de-feijao-e-xicara-de-cafe-ilustracao-vetorial_514781-1129.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.vermelho   {
+    background-color: red;
+}
